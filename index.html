@@ -66,9 +66,9 @@
       <ul>
         
   
-        <li id="project1" onclick="onClick(this)"><button class="w3-button w3-padding-large w3-red w3-margin-bottom" style="width: 350px;">Day Planner</button></li>
-        <li class="project2" onclick="onClick(this)"><button class="w3-button w3-padding-large w3-red w3-margin-bottom" style="width: 350px;">Simple coding quiz</button></li>
-        <li class="project3" onclick="onClick(this)"><button class="w3-button w3-padding-large w3-red w3-margin-bottom" style="width: 350px;">Eat-da-Burger</button></li>
+        <li id="project1" onclick="project1()"><button class="w3-button w3-padding-large w3-red w3-margin-bottom" style="width: 350px;">Day Planner</button></li>
+        <li class="project2" onclick="project2()"><button class="w3-button w3-padding-large w3-red w3-margin-bottom" style="width: 350px;">Simple coding quiz</button></li>
+        <li class="project3" onclick="project3()"><button class="w3-button w3-padding-large w3-red w3-margin-bottom" style="width: 350px;">Eat-da-Burger</button></li>
       </ul>
 
     
@@ -76,21 +76,26 @@
       <h2 class="w3-text-red">Group Projects</h2>
       <ul>
 
-        <li class="project4" onclick="onClick(this)"><button class="w3-button w3-padding-large w3-red w3-margin-bottom" style="width: 350px;">Arena Collection</button></li>
-        <li class="project5" onclick="onClick(this)"><button class="w3-button w3-padding-large w3-red w3-margin-bottom" style="width: 350px;">Proeficincy Education</button></li>
+        <li class="project4" onclick="project4()"><button class="w3-button w3-padding-large w3-red w3-margin-bottom" style="width: 350px;">Arena Collection</button></li>
+        <li class="project5" onclick="project5()"><button class="w3-button w3-padding-large w3-red w3-margin-bottom" style="width: 350px;">Proeficincy Education</button></li>
 
       </ul>
   </div>
 
   <!-- Modal for full size images on click-->
-  <div id="modal01" class="w3-modal w3-black" style="padding-top:0" onclick="this.style.display='none'">
-    <span class="w3-button w3-black w3-xxlarge w3-display-topright">×</span>
-    <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+  <div id="modal01" class="w3-modal w3-black" style="padding-top:30">
+    <span class="w3-button w3-black w3-xxlarge w3-display-topright" onclick="modal01.style.display='none'">×</span>
+    <div class=" w3-animate-zoom w3-center w3-transparent w3-padding-64">
       <div id="projectModal">
-      <h4 id="title"></h4>
+      <h1 id="title"></h1>
       <p id= "description"></p>
-      <button>GitHub link</button>
-      <p> Deployed link</p>
+      </br>
+      <h3 id="myrole"></h3>
+      <div class="projectGitLink">
+      </div>
+    </br>
+      <div class="projectDeployedLink">
+      </div>
       </div>
     </div>
   </div>
@@ -98,22 +103,8 @@
   <div class="w3-container" id="contact" style="margin-top:75px">
     <h1 class="w3-xxxlarge w3-text-red"><b>My Contacts.</b></h1>
     <hr style="width:50px;border:5px solid red" class="w3-round">
-    <p>Do you want us to style your home? Fill out the form and fill me in with the details :) We love meeting new people!</p>
-    <form action="/action_page.php" target="_blank">
-      <div class="w3-section">
-        <label>Name</label>
-        <input class="w3-input w3-border" type="text" name="Name" required>
-      </div>
-      <div class="w3-section">
-        <label>Email</label>
-        <input class="w3-input w3-border" type="text" name="Email" required>
-      </div>
-      <div class="w3-section">
-        <label>Message</label>
-        <input class="w3-input w3-border" type="text" name="Message" required>
-      </div>
-      <button type="submit" class="w3-button w3-padding-large w3-red w3-margin-bottom" style="width: 350px;">Send Message</button>
-    </form>  
+   
+   
   </div>
 
 <!-- End page content -->

@@ -36,6 +36,8 @@ function project1() {
     document.getElementById("modal01").style.display = "block";
     var captionText = document.getElementById("title");
     captionText.innerHTML = "Day Planner";
+    var myroleText = document.getElementById('myrole');
+    myroleText.innerHTML="";
     var proDescription = document.getElementById("description");
     proDescription.innerHTML = "It's a site that allows the user to save all his important meetings and tasks during the work day" + "</br>" + " from 9 AM till 5 PM";
     $('.projectGitLink').html('<a href="https://github.com/Dina-tolemy/Day-planner">GiHub Page</a>');
@@ -48,7 +50,8 @@ function project2() {
     var captionText = document.getElementById("title");
     captionText.innerHTML = "Simple Coding Quiz";
     var proDescription = document.getElementById("description");
-
+    var myroleText = document.getElementById('myrole');
+    myroleText.innerHTML="";
     proDescription.innerHTML = "It's a simple Java script quiz with a timer and the score is the time left." + "</br>" + "it shows the score at the end and it keeps the scores and shows the highest";
     $('.projectGitLink').html('<a href="https://github.com/Dina-tolemy/Coding-quiz">GiHub Page</a>');
     $('.projectDeployedLink').html('<a href="https://dina-tolemy.github.io/Coding-quiz/">Project link</a>');
@@ -59,6 +62,8 @@ function project3() {
     document.getElementById("modal01").style.display = "block";
     var captionText = document.getElementById("title");
     captionText.innerHTML = "Eat-Da-Burger";
+    var myroleText = document.getElementById('myrole');
+    myroleText.innerHTML="";
     var proDescription = document.getElementById("description");
     proDescription.innerHTML = "It's burger logger with MySQL, Node, Express, Handlebars and ORM ." + "</br>" + "It lets the user save their burgers and devour it.";
     $('.projectGitLink').html('<a href="https://github.com/Dina-tolemy/Eat-Da-Burger">GiHub Page</a>');

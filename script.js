@@ -1,5 +1,5 @@
-var img1 = $('<img src="./Assets/images/Arena.png" style="width:600px; hieght=600px;">');
-var img6 = $('<img src="/tak-9/project2/raw/master/Screen%20Shot%202020-03-07%20at%2012.33.55%20pm.png"width:600px; hieght=600px;">');
+var img1 = $('<img src="https://user-images.githubusercontent.com/55872249/79184636-13a4a300-7e58-11ea-9f36-05b7587665e0.png" style="width:600px; hieght=600px;">');
+var img6 = $('<img src="https://user-images.githubusercontent.com/55872249/79184618-04255a00-7e58-11ea-9b60-18cff7278539.png"width:600px; hieght=600px;">');
 var img3 = $('<img src="https://user-images.githubusercontent.com/55872249/70845940-8a309480-1ea8-11ea-8368-95d737dc55ce.png" alt="weather2" style="width:500px; hieght=600px;"></img>');
 var img2 = $('<img src="https://user-images.githubusercontent.com/55872249/70368243-3fd57380-18fc-11ea-91f5-2a26903189b8.png" alt="Annotation 2019-12-07 141045"style="width:500px; hieght=600px; ">');
 var img5 = $('<img src="https://user-images.githubusercontent.com/55872249/74914360-6b093280-5416-11ea-8a7f-fe7fd11a8a09.png"> alt="Eat-Da-Burger" style="width:500px; hieght=500px;')
@@ -101,7 +101,7 @@ function project5() {
 
     document.getElementById("modal01").style.display = "block";
     var captionText = document.getElementById("title");
-    captionText.innerHTML = "profecincy Education";
+    captionText.innerHTML = "proficiency Education";
     var myroleText = document.getElementById('myrole');
     var proDescription = document.getElementById("description");
     myroleText.innerHTML = "My Role: 'Creating Data Base with sequlize, Html routes and student side of the site'"

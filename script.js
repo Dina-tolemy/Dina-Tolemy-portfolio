@@ -2,7 +2,7 @@ var img1 = $('<img src="https://user-images.githubusercontent.com/55872249/79184
 var img6 = $('<img src="https://user-images.githubusercontent.com/55872249/79184618-04255a00-7e58-11ea-9b60-18cff7278539.png" alt=" Project photo" style="width:500px; hieght=500px;">');
 var img3 = $('<img src="https://user-images.githubusercontent.com/55872249/70845940-8a309480-1ea8-11ea-8368-95d737dc55ce.png" alt="weather2" style="width:500px; hieght=600px;"></img>');
 var img2 = $('<img src="https://user-images.githubusercontent.com/55872249/70368243-3fd57380-18fc-11ea-91f5-2a26903189b8.png" alt="Annotation 2019-12-07 141045"style="width:500px; hieght=600px; ">');
-var img5 = $('<img src="https://user-images.githubusercontent.com/55872249/81644687-90cd3300-946b-11ea-924e-cc0a19a5ff85.png"> alt="stronger Community" style="width:500px; hieght=500px;')
+var img5 = $('<img src="https://user-images.githubusercontent.com/55872249/81644687-90cd3300-946b-11ea-924e-cc0a19a5ff85.png" alt="stronger Community" style="width:500px; hieght=500px;".>')
 var img4 = $('<img src="https://user-images.githubusercontent.com/55872249/69898061-4b7ae480-13a8-11ea-8d23-25adb9a0c01e.png" alt="correct" style="width:500px; hieght=400px;">');
 
 

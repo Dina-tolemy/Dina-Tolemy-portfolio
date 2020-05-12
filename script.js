@@ -2,7 +2,7 @@ var img1 = $('<img src="https://user-images.githubusercontent.com/55872249/79184
 var img6 = $('<img src="https://user-images.githubusercontent.com/55872249/79184618-04255a00-7e58-11ea-9b60-18cff7278539.png" alt=" Project photo" style="width:500px; hieght=500px;">');
 var img3 = $('<img src="https://user-images.githubusercontent.com/55872249/70845940-8a309480-1ea8-11ea-8368-95d737dc55ce.png" alt="weather2" style="width:500px; hieght=600px;"></img>');
 var img2 = $('<img src="https://user-images.githubusercontent.com/55872249/70368243-3fd57380-18fc-11ea-91f5-2a26903189b8.png" alt="Annotation 2019-12-07 141045"style="width:500px; hieght=600px; ">');
-var img5 = $('<img src="https://user-images.githubusercontent.com/55872249/74914360-6b093280-5416-11ea-8a7f-fe7fd11a8a09.png"> alt="Eat-Da-Burger" style="width:500px; hieght=500px;')
+var img5 = $('<img src="https://user-images.githubusercontent.com/55872249/81644687-90cd3300-946b-11ea-924e-cc0a19a5ff85.png"> alt="stronger Community" style="width:500px; hieght=500px;')
 var img4 = $('<img src="https://user-images.githubusercontent.com/55872249/69898061-4b7ae480-13a8-11ea-8d23-25adb9a0c01e.png" alt="correct" style="width:500px; hieght=400px;">');
 
 
@@ -52,13 +52,13 @@ function project3() {
 
     document.getElementById("modal01").style.display = "block";
     var captionText = document.getElementById("title");
-    captionText.innerHTML = "Eat-Da-Burger";
+    captionText.innerHTML = "Stronger Community";
     var myroleText = document.getElementById('myrole');
     myroleText.innerHTML = "";
     var proDescription = document.getElementById("description");
-    proDescription.innerHTML = "It's burger logger with MySQL, Node, Express, Handlebars and ORM ." + "</br>" + "It lets the user save their burgers and devour it.";
-    $('.projectGitLink').html('<a href="https://github.com/Dina-tolemy/Eat-Da-Burger">GiHub Page</a>');
-    $('.projectDeployedLink').html('<a href=" https://sheltered-island-53524.herokuapp.com/">Project link</a>');
+    proDescription.innerHTML = "An app built with MERN to let the vulnerable and in-need people get the help they want in these difficult times"+" and let the people know what they need and help them if they can.";
+    $('.projectGitLink').html('<a href="https://github.com/Dina-tolemy/Stronger-Community">GiHub Page</a>');
+    $('.projectDeployedLink').html('<a href="https://stronger-community.herokuapp.com/">Project link</a>');
     $('.projectDeployedLink').append('</br>');
     $('.projectDeployedLink').append('</br>');
     $('.projectDeployedLink').append(img5);
@@ -80,6 +80,7 @@ function project6() {
     $('.projectDeployedLink').append(img3);
 }
 
+
 function project4() {
 
     document.getElementById("modal01").style.display = "block";
@@ -87,7 +88,7 @@ function project4() {
     captionText.innerHTML = "Arena Collection";
     var proDescription = document.getElementById("description");
     var myroleText = document.getElementById('myrole');
-    proDescription.innerHTML = "It's a site that allows the players of the magic gathering game to search the cards depending on varaity of serch methods and build their own card deck and import it to the game";
+    proDescription.innerHTML = "An app that allows the players of the magic gathering game to search the cards depending on a variety of search methods and build their own card deck and import it to the game";
     myroleText.innerHTML = "My Role: ' Front-End'"
     $('.projectGitLink').html('<a href="https://github.com/Jasper8628/GroupProjectOne">GiHub Page</a>');
     $('.projectDeployedLink').html('<a href="https://jasper8628.github.io/GroupProjectOne/">Project link</a>');
